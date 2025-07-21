@@ -14,7 +14,14 @@ A terminal-based note-taking application built with Go and Bubble Tea, designed 
 ## Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/float-ritual-stack/echo-refactor.git
+cd echo-refactor
+
+# Build the binary
 go build -o float-echo
+
+# Run the application
 ./float-echo
 ```
 
@@ -41,6 +48,10 @@ Prefix your entries with type markers for automatic categorization:
 - `meeting::` - Meeting notes
 - `error::` - Error tracking
 - `idea::` - Ideas and inspiration
+
+Entries can optionally start with a bullet point (`- `) which will be automatically parsed:
+- `- ctx:: working on echo refactor`
+- `ctx:: working on echo refactor` (both formats work)
 
 ## File Format
 
