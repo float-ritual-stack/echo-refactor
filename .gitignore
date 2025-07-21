@@ -1,0 +1,19 @@
+# Binaries
+float-echo
+*.exe
+
+# Go build cache
+*.test
+*.out
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
